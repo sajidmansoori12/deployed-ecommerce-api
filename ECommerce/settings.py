@@ -25,7 +25,7 @@ STATIC_DIR = os.path.join(BASE_DIR,"media")
 SECRET_KEY = 'o)0t#wcl3$b+%5e4rq4cojs**b2btznjj^-!se&qn-$!(6cg6-'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
 ALLOWED_HOSTS = ['ecommerce-deployed.herokuapp.com','127.0.0.1']
 
