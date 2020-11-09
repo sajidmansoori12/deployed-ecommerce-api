@@ -15,7 +15,7 @@ class Product(models.Model):
         return self.name
 
 class Banner(models.Model):
-    banner_name = models.CharField(max_length=50,default='Null')
+    banner_name = models.CharField(max_length=50,default='')
     banner_image = models.ImageField(upload_to='banners/')
 
     def __str__(self):
@@ -24,8 +24,9 @@ class Banner(models.Model):
 
 
 class Offer(models.Model):
-    offer_name = models.CharField(max_length=50,default='Null')
+    offer_name = models.CharField(max_length=50,default='')
     offer_image = models.ImageField(upload_to='offer/')
+    type = models.CharField(max_length=50,default='')
 
     def __str__(self):
         return self.offer_name
