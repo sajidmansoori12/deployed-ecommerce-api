@@ -1,7 +1,7 @@
 from django.contrib import admin
-from . import models
+from .models import Product,Banner,Offer
 # Register your models here.
 
-admin.site.register(models.Product)
-admin.site.register(models.Banner)
-admin.site.register(models.Offer)
+admin.site.register(Product)
+admin.site.register(Banner)
+admin.site.register(Offer)
