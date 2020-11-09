@@ -17,4 +17,4 @@ class BannerSerializer(serializers.ModelSerializer):
 class OfferSerializer(serializers.ModelSerializer):
     class Meta:
         model = Offer
-        fields = ('offer_image','offer_name')
+        fields = ('offer_image','offer_name','type')
